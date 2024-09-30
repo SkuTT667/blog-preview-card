@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgba(244, 208, 78, 1);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    width: 384px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.user-picture {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-grapper {
+    display: flex;
+    align-items: center;
+}
+
+.user-picture {
+    margin-right: 8px;
+}
